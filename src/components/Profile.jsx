@@ -5,9 +5,9 @@ const Profile = ({ name, tag, location, image, stats }) => {
     <div className={styles.container}>
       <div>
         <img src={image} alt="User avatar" width={250} />
-        <p>{name}</p>
-        <p>{tag}</p>
-        <p>{location}</p>
+        <p className={styles.info_user}>{name}</p>
+        <p className={styles.info_user}>@{tag}</p>
+        <p className={styles.info_user}>{location}</p>
       </div>
       <ul className={styles.items}>
         <li className={styles.item}>

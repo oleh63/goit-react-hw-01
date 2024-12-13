@@ -1,6 +1,14 @@
 .container {
-  display: flex;
-  flex-direction: column;
+  padding: 15px;
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid #434367;
+}
+
+.info_user {
+  font-size: 32px;
+  font-weight: 700;
 }
 
 .items {
