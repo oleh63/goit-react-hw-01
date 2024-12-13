@@ -1,0 +1,26 @@
+.list_item {
+  padding: 15px;
+  border: 2px solid #524d4d;
+  border-radius: 8px;
+  background-color: rgb(230, 223, 223);
+}
+
+.name_friend {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.status {
+  font-size: 16px;
+  font-weight: 400;
+  background-color: rgb(255, 228, 196);
+  border-radius: 8px;
+}
+
+.online {
+  color: rgb(93, 177, 9);
+}
+
+.offline {
+  color: brown;
+}
